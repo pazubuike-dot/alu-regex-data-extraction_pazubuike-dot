@@ -1,0 +1,24 @@
+{
+    "emails": {
+        "official": [
+            "user.johnson@alueducation.com"
+        ],
+        "alumni": [
+            "alumni.contact@alumni.alueducation.com"
+        ],
+        "si": [
+            "instructor.support@si.alueducation.com"
+        ]
+    },
+    "credit_cards": [
+        "XXXX-XXXX-XXXX-4444",
+        "XXXX-XXXX-XXXX-8888"
+    ],
+    "urls": [
+        "http://evil.com",
+        "https://security-portal.alueducation.com/login?session=active."
+    ],
+    "currency_amounts": [
+        "$1,250.50"
+    ]
+}

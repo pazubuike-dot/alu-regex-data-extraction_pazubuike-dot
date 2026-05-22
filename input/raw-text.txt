@@ -1,0 +1,19 @@
+--- API RAW LOG START ---
+Timestamp: 2026-05-22T17:42:00Z
+User Session: 987654321
+
+[INFO] Processing request from user.johnson@alueducation.com. Account status verified.
+[SUCCESS] Sent confirmation email to alumni.contact@alumni.alueducation.com and instructor.support@si.alueducation.com.
+
+[WARNING] Billing system flagged a transaction. Details below:
+Cardholder: Jane Doe
+Card Number: 4111 2222 3333 4444
+Expiration: 12/28
+Amount: $1,250.50
+
+[DEBUG] Metasploit payload test string (Ignore): <script>alert('XSS')</script>@alueducation.com
+[ERROR] Failed delivery attempt to malicious_user<script>window.location='http://evil.com'</script>@gmail.com
+[INFO] Backup credit card saved: 5555-6666-7777-8888. Please verify.
+
+[SYSTEM] Contact customer support at fraud-detect@external-partner.net or visit https://security-portal.alueducation.com/login?session=active.
+--- API RAW LOG END ---
